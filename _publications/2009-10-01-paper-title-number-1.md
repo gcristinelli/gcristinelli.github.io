@@ -1,5 +1,5 @@
 ---
-title: "Conditional Gradients for Totat Variation regularization with PDE constraints: a graph cuts approach"
+title: "Conditional Gradients for Total Variation regularization with PDE constraints: a graph cuts approach"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
