@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,14 +8,15 @@ redirect_from:
 ---
 
 {% include base_path %}
+Here you can find my cv in the academic or short version.
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Applied Mathematics, University of Twente, 2026 (expected)
+* M.Sc. in Mathematics, Utrecht University, 2022
+* B.Sc. in Mathematics, University of Trento, 2019
 
-Work experience
+<!-- Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * GitHub University
@@ -30,35 +31,21 @@ Work experience
 * Summer 2015: Research Assistant
   * GitHub University
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Professor Git -->
   
-Skills
+Technical skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: Italian (Mothertongue), English (C1/C2), Spanish (B2)
+* Coding languages: Python, Cpp, Matlab, Ruby, HTML
+* Softwares for Simulations & Design: Ansys, Blender
 
-Publications
+Certificates and Other Courses
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Computer Graphics, (online edX) (To be completed)
+* Software engineering (online edX) (To be completed)
+* Engineering Design and Simulations (online edX) (To be completed)
+* New Mathematical Methods in Geometry Processing, (in loco) University of Bonn (2026)
+* Introduction to Cpp, (in loco) University of Twente (2025)
+* Mathematics and Machine Learning for Image Analysis, (in loco) University of Bologna (2024)
+
+
