@@ -24,7 +24,7 @@ repository               : "gcristinelli/gcristinelli.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Giacomo"
+  name             : "Giacomo Cristinelli"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate"
   location         : "Enschede, NL"
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0001-1554-6263"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Giacomo-Cristinelli?ev=hdr_xprf" # URL
   scopus           : # URL
   zotero           : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/giacomo-cristinelli-1b11091aa" # Username
+  linkedin         : "giacomo-cristinelli-1b11091aa/" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
