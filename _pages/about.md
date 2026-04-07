@@ -16,3 +16,5 @@ I have been working on inverse problems with PDE constraints and sparse optimiza
 I am particularly interested in turning mathematical models into methods that are actually competitive in practice, and in understanding why effective heuristic methods are mathematically sound, especially in areas such as computer graphics and geometry processing. My technical work spans Python and C++ for finite element methods, optimization, and large-scale numerical computation.
 
 I am currently expanding my expertise towards computational geometry and simulation-driven design, with the goal of contributing to the development of next-generation engineering and design tools.
+
+Get in touch! I'd love to hear from you.
