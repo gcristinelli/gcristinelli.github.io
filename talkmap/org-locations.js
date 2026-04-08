@@ -33,5 +33,10 @@ var addressPoints = [
     "Sparse optimization for discretized PDE-constrained problems with total variation regularization<br />Graaf Bernstorff; Schiermonnikoog, NL",
     53.4782844,
     6.1610076
+  ],
+  [
+    "Spring School on Geometric Methods in Data Science<br />Braude College of Engineering; Karmiel, IS",
+    32.9203,
+    35.2920
   ]
 ];
