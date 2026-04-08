@@ -1,22 +1,37 @@
 var addressPoints = [
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "University of Houston<br />Department of Mathematics; Houston, TX, USA",
+    29.7589382,
+    -95.3676974
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Sparse optimization on length measures towards PDE constrained problems<br />Palais des Congr\u00e8s; Saint Malo', FR",
+    48.649518,
+    -2.0260409
   ],
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Mathematics and Machine Learning for Image Analysis<br />Plesso Belmeloro; Bologna, IT",
+    44.4938203,
+    11.3426327
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Towards sparse optimization on length measures<br />The University of Edinburgh George Square; Edinburgh, UK",
+    55.9533456,
+    -3.1883749
+  ],
+  [
+    "Warsaw Summer School on Evolutionary PDEs<br />Faculty of Mathematics, Informatics and Mechanics; Warsaw, PL",
+    52.2333742,
+    21.0711489
+  ],
+  [
+    "New Mathematical Methods in Geometry Processing<br />Mathezentrum; Bonn, DE",
+    50.7352621,
+    7.1024635
+  ],
+  [
+    "Sparse optimization for discretized PDE-constrained problems with total variation regularization<br />; Schiermonnikoog, NL",
+    53.4782844,
+    6.1610076
   ]
 ];
