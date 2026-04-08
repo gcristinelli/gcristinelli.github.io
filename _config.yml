@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Giacomo Cristinelli"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate"
+  bio              : "PhD candidate in applied mathematics"
   location         : "Enschede, NL"
   employer         : "University of Twente"
   uri              : # URL
@@ -89,7 +89,7 @@ publication_category:
   manuscripts:
     title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
