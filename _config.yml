@@ -91,6 +91,17 @@ publication_category:
   conferences:
     title: 'Preprints'
 
+# Activities Category
+talk_category:
+  contributed_talks:
+    title: "Selected Talks"
+  research_visits:
+    title: "Research Visits"
+  conferences_workshops:
+    title: "Conferences and Workshops"
+  summer_schools:
+    title: "Seasonal Schools"
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
@@ -231,7 +242,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

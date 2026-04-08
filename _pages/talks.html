@@ -1,16 +1,49 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Academic Activities"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<div class="activities-page">
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  {% if site.talkmap_link == true %}
+    <div class="activities-map-link">
+      <a href="/talkmap.html">See a map of all my academic activities</a>
+    </div>
+  {% endif %}
 
-{% endif %}
+  {% if site.talk_category %}
+    {% for category in site.talk_category %}
+      {% assign title_shown = false %}
+      {% capture category_items %}
+        {% for post in site.talks reversed %}
+          {% if post.category != category[0] %}
+            {% continue %}
+          {% endif %}
+          {% assign title_shown = true %}
+          {% include archive-single-talk.html %}
+        {% endfor %}
+      {% endcapture %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+      {% if title_shown %}
+        <section class="activities-section">
+          <h2 class="activities-section-title">{{ category[1].title }}</h2>
+          <div class="activities-section-items">
+            {{ category_items }}
+          </div>
+        </section>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <section class="activities-section">
+      <h2 class="activities-section-title">Activities</h2>
+      <div class="activities-section-items">
+        {% for post in site.talks reversed %}
+          {% include archive-single-talk.html %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+</div>
