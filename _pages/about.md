@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 title: ""
 author_profile: true
@@ -18,5 +19,3 @@ I am particularly interested in turning mathematical models into methods that ar
 I am currently expanding my expertise towards computational geometry and simulation-driven design, with the goal of contributing to the development of next-generation engineering and design tools.
 
 I will be available for new opportunities starting October 2026. I am interested in junior or internship positions in R&D, as well as PostDoc positions with possible industry collaboration. I am open to relocation.
-
-Get in touch! I'd love to hear from you.
