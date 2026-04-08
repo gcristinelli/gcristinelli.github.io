@@ -21,8 +21,8 @@ var addressPoints = [
   ],
   [
     "Warsaw Summer School on Evolutionary PDEs<br />Faculty of Mathematics, Informatics and Mechanics; Warsaw, PL",
-    52.2333742,
-    21.0711489
+    52.2319581,
+    21.0067249
   ],
   [
     "New Mathematical Methods in Geometry Processing<br />Mathezentrum; Bonn, DE",
@@ -30,7 +30,7 @@ var addressPoints = [
     7.1024635
   ],
   [
-    "Sparse optimization for discretized PDE-constrained problems with total variation regularization<br />; Schiermonnikoog, NL",
+    "Sparse optimization for discretized PDE-constrained problems with total variation regularization<br />Graaf Bernstorff; Schiermonnikoog, NL",
     53.4782844,
     6.1610076
   ]
