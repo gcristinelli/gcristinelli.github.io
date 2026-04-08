@@ -5,7 +5,7 @@ collection: talks
 category: contributed_talks
 type: "Talk"
 permalink: /talks/calcvar23
-venue: ""
+venue: "Graaf Bernstorff"
 date: 2023-07-13
 location: "Schiermonnikoog, NL"
 slidesurl: "https://gcristinelli.github.io/files/Schiermonnikoog2023.pdf"

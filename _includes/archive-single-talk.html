@@ -40,11 +40,11 @@
 
     {% if post.venue or post.location %}
       <p class="archive__item-excerpt" itemprop="description">
-        {% if post.type %}{{ post.type }}{% endif %}
-        {% if post.type and post.venue %}, {% endif %}
-        {% if post.venue %}{{ post.venue }}{% endif %}
-        {% if post.location and post.venue %}, {% endif %}
-        {% if post.location %}{{ post.location }}{% endif %}
+        {%- if post.type -%}{{ post.type }}{% endif -%}
+        {%- if post.type and post.venue -%}, {% endif -%}
+        {%- if post.venue -%}{{ post.venue }}{% endif -%}
+        {%- if post.location and post.venue -%}, {% endif -%}
+        {%- if post.location -%}{{ post.location }}{% endif -%}
       </p>
     {% endif %}
 
