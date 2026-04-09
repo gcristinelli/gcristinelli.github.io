@@ -19,11 +19,6 @@ layout: default
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <!-- RIGHT-ALIGNED TYPEWRITER -->
-    <div style="position: absolute; bottom: 20%; right: 26%; text-align: right; font-size: 1.3rem; color: #11999e;">
-      <span id="typewriter"></span><span style="animation: blink 0.8s infinite;">|</span>
-    </div>
-
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
@@ -84,6 +79,10 @@ layout: default
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        <!-- TYPEWRITER AT END -->
+        <div style="margin-top: 2rem; text-align: right; font-size: 1.5rem;">
+        <span id="typewriter"></span><span style="animation: blink 0.8s infinite;">|</span>
+        </div>
       </section>
 
       <footer class="page__meta">
