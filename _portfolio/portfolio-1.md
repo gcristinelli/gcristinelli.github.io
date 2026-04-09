@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Introduction to TikZ: a graphic library in Latex"
+excerpt: "
+  <img src='/images/tikz1.png' style='width: 450px;'>
+  <img src='/images/project.jpg' style='width: 450px;'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Website page under construction. In the meantime, check out the [Beamer presentation](https://gcristinelli.github.io/files/introduction_to_Tikz_Pgf.pdf) of the practical skills session that I gave at the [Calculus of Variation](https://www.calcvar.nl/workshop-calcvarnl-2024) workshop 2024. 
