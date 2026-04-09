@@ -5,32 +5,169 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .publications-page {
+    margin-top: 1.5rem;
+  }
 
-{% include base_path %}
+  .publications-intro {
+    margin-bottom: 2rem;
+    max-width: 48rem;
+  }
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+  .publications-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .publications-section-title {
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+
+  .publications-section-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .publications-section-items > .list__item,
+  .publications-section-items > .archive__item,
+  .publications-section-items > div[class$="__item"] {
+    margin: 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(120, 120, 120, 0.18);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.55);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .publications-section-items > .list__item:hover,
+  .publications-section-items > .archive__item:hover,
+  .publications-section-items > div[class$="__item"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 77, 64, 0.35);
+  }
+
+  .publications-section-items .archive__item {
+    margin: 0;
+  }
+
+  .publications-section-items .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    line-height: 1.3;
+  }
+
+  .publications-section-items .page__meta {
+    margin: 0.2rem 0 0.5rem 0;
+    opacity: 0.8;
+  }
+
+  .publications-section-items .archive__item-excerpt {
+    margin-bottom: 0;
+  }
+
+  .publications-section-items p:last-child {
+    margin-bottom: 0;
+  }
+
+  .publications-section-items a {
+    text-decoration: none;
+  }
+
+  .publications-section-items a:hover {
+    text-decoration: underline;
+  }
+
+  .publications-scholar-link {
+    margin-top: 2rem;
+    text-align: right;
+  }
+
+  .publications-scholar-link a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .publications-scholar-link a:hover {
+    text-decoration: underline;
+  }
+
+  /* Dark mode override */
+  [data-theme="dark"] .publications-section-items > .list__item,
+  [data-theme="dark"] .publications-section-items > .archive__item,
+  [data-theme="dark"] .publications-section-items > div[class$="__item"] {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  [data-theme="dark"] .publications-section-items > .list__item:hover,
+  [data-theme="dark"] .publications-section-items > .archive__item:hover,
+  [data-theme="dark"] .publications-section-items > div[class$="__item"]:hover {
+    border-color: rgba(147, 177, 181, 0.55);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  }
+
+  @media (max-width: 768px) {
+    .publications-section-title,
+    .publications-scholar-link {
+      text-align: left;
+    }
+
+    .publications-section-items > .list__item,
+    .publications-section-items > .archive__item,
+    .publications-section-items > div[class$="__item"] {
+      padding: 0.9rem 1rem;
+    }
+  }
+</style>
+
+<div class="publications-page">
+
+  <p class="publications-intro">
+    This page collects my publications, including journal articles, preprints, and other research outputs.
+  </p>
+
+  {% include base_path %}
+
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+      {% capture category_items %}
+        {% for post in site.publications reversed %}
+          {% if post.category != category[0] %}
+            {% continue %}
+          {% endif %}
+          {% assign title_shown = true %}
+          {% include archive-single.html %}
+        {% endfor %}
+      {% endcapture %}
+
+      {% if title_shown %}
+        <section class="publications-section">
+          <h2 class="publications-section-title">{{ category[1].title }}</h2>
+          <div class="publications-section-items">
+            {{ category_items }}
+          </div>
+        </section>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% else %}
+    <section class="publications-section">
+      <h2 class="publications-section-title">Publications</h2>
+      <div class="publications-section-items">
+        {% for post in site.publications reversed %}
+          {% include archive-single.html %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 
+  {% if site.author.googlescholar %}
+    <div class="publications-scholar-link">
+      <a href="{{ site.author.googlescholar }}">See also my Google Scholar profile</a>
+    </div>
+  {% endif %}
 
-
+</div>
