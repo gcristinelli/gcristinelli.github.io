@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-Here you can find my cv in the academic or short version.
+Here you can find my cv in the academic or short version (last update: April 2026).
 
 Education
 ======
@@ -36,8 +36,10 @@ Education
 Technical skills
 ======
 * Languages: Italian (Mothertongue), English (C1/C2), Spanish (B2)
-* Coding languages: Python, Cpp, Matlab, Ruby, HTML
+* Coding languages: Python, Cpp, Julia, Matlab, HTML (in order of proficiency: high -> basic)
 * Softwares for Simulations & Design: Ansys, Blender
+* Other tools: git
+* Familiarity with agile methodologies
 
 Certificates and Other Courses
 ======
