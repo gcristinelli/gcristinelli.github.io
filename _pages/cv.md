@@ -44,7 +44,7 @@ Technical skills
 Certificates and Other Courses
 ======
 * Computer Graphics, (online edX) (To be completed)
-* Software engineering (online edX) (To be completed)
+* Software engineering essentials (online edX) (To be completed)
 * Engineering Design and Simulations (online edX) (To be completed)
 * New Mathematical Methods in Geometry Processing, (in loco) University of Bonn (2026)
 * Introduction to Cpp, (in loco) University of Twente (2025)
