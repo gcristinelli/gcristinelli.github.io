@@ -1,6 +1,6 @@
 ---
 title: "The taxonomy of deep learning methods in Geometry Processing"
-excerpt: "This is a little survey on current state-of-the-art deep learning methods in geometry processing.  <br/><img src='/images/gproshan.png'> <br/> [picture credit](https://github.com/larc/gproshan)"
+excerpt: "This is a little survey on current state-of-the-art deep learning methods in geometry processing.  <br/><img src='/images/random_GP.png'> <br/> 
 collection: portfolio
 ---
 
