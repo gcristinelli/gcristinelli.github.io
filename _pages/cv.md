@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-Here you can find my cv in the academic or short version (last update: April 2026).
+Here you can find my [full cv](https://gcristinelli.github.io/files/Academic_CV.pdf) (last update: April 2026).
 
 Education
 ======
