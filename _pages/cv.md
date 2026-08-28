@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 Here you can find my [full cv](https://gcristinelli.github.io/files/Academic_CV.pdf) (last update: April 2026).
 
 Education
@@ -49,5 +48,4 @@ Certificates and Other Courses
 * New Mathematical Methods in Geometry Processing, (in loco) University of Bonn (2026)
 * Introduction to Cpp, (in loco) University of Twente (2025)
 * Mathematics and Machine Learning for Image Analysis, (in loco) University of Bologna (2024)
-
 
