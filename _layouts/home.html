@@ -79,10 +79,6 @@ layout: default
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        <!-- TYPEWRITER AT END -->
-        <div style="margin-top: 2rem; text-align: right; font-size: 1.5rem;">
-        <span id="typewriter"></span><span style="animation: blink 0.8s infinite;">|</span>
-        </div>
       </section>
 
       <footer class="page__meta">
@@ -115,55 +111,3 @@ layout: default
     </div>
   {% endif %}
 </div>
-
-<!-- BLINK -->
-<style>
-@keyframes blink {
-  50% { opacity: 0; }
-}
-</style>
-
-<!-- TYPEWRITER -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const words = [
-    "Get in touch!",
-    "I'd love to hear from you"
-  ];
-
-  const target = document.getElementById("typewriter");
-  if (!target) return;
-
-  let wordIndex = 0;
-  let charIndex = 0;
-  let deleting = false;
-
-  function tick() {
-    const currentWord = words[wordIndex];
-
-    if (!deleting) {
-      charIndex++;
-      target.textContent = currentWord.slice(0, charIndex);
-
-      if (charIndex === currentWord.length) {
-        deleting = true;
-        setTimeout(tick, 1200);
-        return;
-      }
-    } else {
-      charIndex--;
-      target.textContent = currentWord.slice(0, charIndex);
-
-      if (charIndex === 0) {
-        deleting = false;
-        wordIndex = (wordIndex + 1) % words.length;
-      }
-    }
-
-    const speed = deleting ? 45 : 90;
-    setTimeout(tick, speed);
-  }
-
-  tick();
-});
-</script>
