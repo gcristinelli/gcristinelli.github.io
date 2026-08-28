@@ -6,7 +6,6 @@ permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Joint work with: [José A. Iglesias](https://scholar.google.com/citations?user=SGkCSwUAAAAJ&hl=de) (University of Twente) and [Daniel Walter](https://scholar.google.com/citations?user=4dP_d_wAAAAJ&hl=de) (HU Berlin)'
 date: 2025-04-23
 venue: 'Arxiv'
-#slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://arxiv.org/pdf/2504.16899'
 citation: 'Cristinelli, G., Iglesias, J. A., Walter, D. (2025). &quot;Linear convergence of a one-cut conditional gradient method for total variation regularization.&quot; <i>arxiv</i>. 2504.16899.'
 ---

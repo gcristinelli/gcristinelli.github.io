@@ -7,7 +7,6 @@ excerpt: 'Joint work with: [José A. Iglesias](https://scholar.google.com/citati
 date: 2025-10-09
 venue: 'Computational Optimization and Applications'
 paperurl: 'https://link.springer.com/article/10.1007/s10589-025-00699-4'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 citation: 'Cristinelli, G., Iglesias, J. A., Walter, D. (2025). &quot;Conditional Gradients for Totat Variation regularization with PDE constraints: a graph cuts approach.&quot; <i>Comput. Optim. Appl.</i>. 93(209-265).'
 ---
 Joint work with: [José A. Iglesias](https://scholar.google.com/citations?user=SGkCSwUAAAAJ&hl=de) (University of Twente) and [Daniel Walter](https://scholar.google.com/citations?user=4dP_d_wAAAAJ&hl=de) (HU Berlin)

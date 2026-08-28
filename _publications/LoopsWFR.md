@@ -6,7 +6,6 @@ permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'Joint work with: [José A. Iglesias](https://scholar.google.com/citations?user=SGkCSwUAAAAJ&hl=de) (University of Twente)'
 date: 2026-03-26
 venue: 'Arxiv'
-#slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
 paperurl: 'https://arxiv.org/pdf/2603.22009'
 citation: 'Cristinelli, G., Iglesias, J. A. (2026). &quot;Towards sparse optimization over convex loops: Equivalence of Square Root Velocity distance and Wasserstein-Fisher-Rao.&quot; <i>arxiv</i>. 2603.22009.'
 ---

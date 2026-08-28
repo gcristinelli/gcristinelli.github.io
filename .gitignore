@@ -16,9 +16,10 @@ package-lock.json
 /vendor/
 .bundle/
 
-# Ignore folders related to IDEs
+# Ignore folders related to IDEs and notebooks
 .vscode/
+*.ipynb_checkpoints/
 
 # Ignore files created by MacOS
-.DS_Store
+*.DS_Store
 WorkLocally.txt
