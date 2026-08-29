@@ -10,15 +10,77 @@ redirect_from:
 
 Hello there! 
 
+<figure class="research-video research-video--mobile research-video--right">
+  <video class="research-video__media" controls muted playsinline preload="metadata" aria-describedby="castle-video-caption-mobile">
+    <source src="{{ '/files/castle_onecut.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+  <figcaption id="castle-video-caption-mobile" class="research-video__caption">
+    One-cut conditional gradient for the Poisson equation with TV regularization.<br>
+    <a href="https://github.com/gcristinelli/One-cut-conditional-gradient">View the code on GitHub</a>.
+  </figcaption>
+</figure>
+
 I am PhD candidate in the [Mathematics of Imaging & AI](https://www.utwente.nl/en/eemcs/mia/) research group under the supervision of dr. [José A. Iglesias](https://scholar.google.com/citations?user=SGkCSwUAAAAJ&hl=de) and prof. dr. [Christoph Brune](https://scholar.google.com/citations?user=QkD3WhsAAAAJ&hl=en). 
 
 I have been working on inverse problems with PDE constraints and sparse optimization. My research focuses on translating and applying known sparse optimization methods to a broad range of inverse problems, where geometric priors are encoded through PDE constraints. Check out my list of [Publications](https://gcristinelli.github.io/publications/).
 
+<figure class="research-video research-video--mobile research-video--left">
+  <video class="research-video__media" controls muted playsinline preload="metadata" aria-label="Research animation">
+    <source src="{{ '/files/animation.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+  <figcaption class="research-video__caption">A discrete mean curvature flow using graph cuts.<br><a href="https://github.com/gcristinelli/Galerkin-Conditional-Gradient">View the code on GitHub</a>.</figcaption>
+</figure>
+
 I am particularly interested in turning mathematical models into methods that are actually competitive in practice, and in understanding why effective heuristic methods are mathematically sound, especially in areas such as computer graphics and geometry processing. My technical work spans Python and C++ for finite element methods, optimization, and large-scale numerical computation.
+
+<figure class="research-video research-video--mobile research-video--right">
+  <video class="research-video__media" controls muted playsinline preload="metadata" aria-label="Collision detection animation">
+    <source src="{{ '/files/DEM.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+  <figcaption class="research-video__caption">
+    A fast collision detection algorithm.<br>
+    <a href="https://github.com/gcristinelli/collision-detection">View the code on GitHub</a>.
+  </figcaption>
+</figure>
 
 I am currently expanding my expertise towards computational geometry and simulation-driven design, with the goal of contributing to the development of next-generation engineering and design tools.
 
 I will be available for new opportunities starting October 2026. I am interested in junior or internship positions in R&D, as well as PostDoc positions with possible industry collaboration. I am open to relocation.
+
+<div class="research-video-row">
+  <figure class="research-video">
+    <video class="research-video__media" controls muted playsinline preload="metadata" aria-describedby="castle-video-caption-desktop">
+      <source src="{{ '/files/castle_onecut.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+    <figcaption id="castle-video-caption-desktop" class="research-video__caption">
+      One-cut conditional gradient for the Poisson equation with TV regularization.<br>
+      <a href="https://github.com/gcristinelli/One-cut-conditional-gradient">View the code on GitHub</a>.
+    </figcaption>
+  </figure>
+  <figure class="research-video">
+    <video class="research-video__media" controls muted playsinline preload="metadata" aria-label="Research animation">
+      <source src="{{ '/files/animation.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+    <figcaption class="research-video__caption">A discrete mean curvature flow using graph cuts.<br><a href="https://github.com/gcristinelli/Galerkin-Conditional-Gradient">View the code on GitHub</a>.</figcaption>
+  </figure>
+  <figure class="research-video">
+    <video class="research-video__media" controls muted playsinline preload="metadata" aria-label="Collision detection animation">
+      <source src="{{ '/files/DEM.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+    <figcaption class="research-video__caption">
+      A fast collision detection algorithm.<br>
+      <a href="https://github.com/gcristinelli/collision-detection">View the code on GitHub</a>.
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-video-clear"></div>
 
 <section class="hobby-gallery" aria-labelledby="hobbies-heading">
   <div class="hobby-gallery__intro">

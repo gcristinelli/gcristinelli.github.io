@@ -7,7 +7,7 @@
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: clamp(0.75rem, 2vw, 1.75rem);
   align-items: start;
-  margin: clamp(3rem, 8vw, 7rem) 0;
+  margin: clamp(1.5rem, 3vw, 3rem) 0;
 
   &__intro {
     grid-column: 1 / -1;
