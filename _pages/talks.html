@@ -3,6 +3,7 @@ layout: archive
 title: "Academic Activities"
 permalink: /talks/
 author_profile: true
+hide_title_on_desktop: true
 ---
 
 <style>
@@ -10,18 +11,16 @@ author_profile: true
     margin-top: 1.5rem;
   }
 
-  .activities-intro {
-    margin-bottom: 2rem;
-    max-width: 48rem;
-  }
-
   .activities-section {
     margin-bottom: 2.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--global-border-color);
   }
 
   .activities-section-title {
-    text-align: right;
+    text-align: left;
     margin-bottom: 1rem;
+    letter-spacing: 0.01em;
   }
 
   .activities-section-items {
@@ -110,7 +109,6 @@ author_profile: true
   }
 
   @media (max-width: 768px) {
-    .activities-section-title,
     .activities-map-link {
       text-align: left;
     }
@@ -124,10 +122,6 @@ author_profile: true
 </style>
 
 <div class="activities-page">
-
-  <p class="activities-intro">
-    This page collects selected academic activities, including talks, research visits, conferences, workshops, and summer schools.
-  </p>
 
   {% if site.talk_category %}
     {% for category in site.talk_category %}

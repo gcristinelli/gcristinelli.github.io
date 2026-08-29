@@ -41,7 +41,6 @@ I will be available for new opportunities starting October 2026. I am interested
 
 <div class="mobile-one-page">
   <section id="publications" class="mobile-one-page__section" aria-labelledby="publications-heading">
-    <p class="mobile-one-page__eyebrow">Research</p>
     <h2 id="publications-heading">Publications</h2>
     <div class="mobile-one-page__list">
       {% for post in site.publications reversed %}
@@ -55,7 +54,6 @@ I will be available for new opportunities starting October 2026. I am interested
   </section>
 
   <section id="activities" class="mobile-one-page__section" aria-labelledby="activities-heading">
-    <p class="mobile-one-page__eyebrow">Academic life</p>
     <h2 id="activities-heading">Activities</h2>
     <div class="mobile-one-page__list">
       {% for post in site.talks reversed %}
@@ -69,7 +67,6 @@ I will be available for new opportunities starting October 2026. I am interested
   </section>
 
   <section id="teaching" class="mobile-one-page__section" aria-labelledby="teaching-heading">
-    <p class="mobile-one-page__eyebrow">Teaching</p>
     <h2 id="teaching-heading">Courses and support</h2>
     <div class="mobile-one-page__list">
       {% for post in site.teaching reversed %}
@@ -83,8 +80,7 @@ I will be available for new opportunities starting October 2026. I am interested
   </section>
 
   <section id="topics" class="mobile-one-page__section" aria-labelledby="topics-heading">
-    <p class="mobile-one-page__eyebrow">Notes</p>
-    <h2 id="topics-heading">Selected topics</h2>
+    <h2 id="topics-heading">Notes</h2>
     <div class="mobile-one-page__list">
       {% for post in site.portfolio reversed %}
         <article class="mobile-one-page__item">
@@ -96,7 +92,6 @@ I will be available for new opportunities starting October 2026. I am interested
   </section>
 
   <section id="cv" class="mobile-one-page__section mobile-one-page__cv" aria-labelledby="cv-heading">
-    <p class="mobile-one-page__eyebrow">Background</p>
     <h2 id="cv-heading">Curriculum vitae</h2>
     {% assign cv_page = site.pages | where: "url", "/cv/" | first %}
     {% if cv_page %}

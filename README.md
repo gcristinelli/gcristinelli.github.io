@@ -32,5 +32,5 @@ Open <http://localhost:4000> and stop the server with `Ctrl-C`.
 
 - `_pages/`: standalone pages
 - `_publications/`, `_talks/`, and `_teaching/`: academic activities
-- `_portfolio/`: selected topics
+- `_portfolio/`: notes
 - `files/` and `images/`: downloadable documents and images

@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+hide_title_on_desktop: true
 ---
 
 <style>
@@ -10,18 +11,16 @@ author_profile: true
     margin-top: 1.5rem;
   }
 
-  .publications-intro {
-    margin-bottom: 2rem;
-    max-width: 48rem;
-  }
-
   .publications-section {
     margin-bottom: 2.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--global-border-color);
   }
 
   .publications-section-title {
-    text-align: right;
+    text-align: left;
     margin-bottom: 1rem;
+    letter-spacing: 0.01em;
   }
 
   .publications-section-items {
@@ -110,7 +109,6 @@ author_profile: true
   }
 
   @media (max-width: 768px) {
-    .publications-section-title,
     .publications-scholar-link {
       text-align: left;
     }
@@ -124,10 +122,6 @@ author_profile: true
 </style>
 
 <div class="publications-page">
-
-  <p class="publications-intro">
-    This page collects my publications, including journal articles, preprints, and other research outputs.
-  </p>
 
   {% include base_path %}
 

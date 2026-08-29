@@ -46,6 +46,12 @@
   }
 }
 
+.page__title--desktop-hidden {
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;

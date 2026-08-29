@@ -3,6 +3,7 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+hide_title_on_desktop: true
 ---
 
 <style>
@@ -10,18 +11,16 @@ author_profile: true
     margin-top: 1.5rem;
   }
 
-  .teaching-intro {
-    margin-bottom: 2rem;
-    max-width: 48rem;
-  }
-
   .teaching-section {
     margin-bottom: 2.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--global-border-color);
   }
 
   .teaching-section-title {
-    text-align: right;
+    text-align: left;
     margin-bottom: 1rem;
+    letter-spacing: 0.01em;
   }
 
   .teaching-section-items {
@@ -110,10 +109,6 @@ author_profile: true
   }
 
   @media (max-width: 768px) {
-    .teaching-section-title {
-      text-align: left;
-    }
-
     .teaching-section-items > .list__item,
     .teaching-section-items > .archive__item,
     .teaching-section-items > div[class$="__item"] {
@@ -125,10 +120,6 @@ author_profile: true
 {% include base_path %}
 
 <div class="teaching-page">
-
-  <p class="teaching-intro">
-    This page lists my teaching activities, grouped by academic year. My responsabilities included managing tutorial sessions and grading exams.
-  </p>
 
   {% assign previous_academic_year = "" %}
 
