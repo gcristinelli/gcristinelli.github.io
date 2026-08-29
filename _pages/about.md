@@ -20,6 +20,25 @@ I am currently expanding my expertise towards computational geometry and simulat
 
 I will be available for new opportunities starting October 2026. I am interested in junior or internship positions in R&D, as well as PostDoc positions with possible industry collaboration. I am open to relocation.
 
+<section class="hobby-gallery" aria-labelledby="hobbies-heading">
+  <div class="hobby-gallery__intro">
+    <p>Away from the desk</p>
+    <h2 id="hobbies-heading">Climbing, hiking, table tennis &amp; chess</h2>
+  </div>
+  <figure class="hobby-gallery__image hobby-gallery__image--chess">
+    <img src="{{ '/images/Activity1.jpeg' | relative_url }}" alt="Giacomo playing chess" loading="lazy">
+  </figure>
+  <figure class="hobby-gallery__image hobby-gallery__image--climbing">
+    <img src="{{ '/images/Activity3.jpeg' | relative_url }}" alt="Giacomo climbing outdoors" loading="lazy">
+  </figure>
+  <figure class="hobby-gallery__image hobby-gallery__image--cycling">
+    <img src="{{ '/images/Activity6.jpeg' | relative_url }}" alt="Giacomo cycling in the mountains" loading="lazy">
+  </figure>
+  <figure class="hobby-gallery__image hobby-gallery__image--table-tennis">
+    <img src="{{ '/images/Activity7.jpeg' | relative_url }}" alt="Giacomo playing table tennis" loading="lazy">
+  </figure>
+</section>
+
 <div class="mobile-one-page">
   <section id="publications" class="mobile-one-page__section" aria-labelledby="publications-heading">
     <p class="mobile-one-page__eyebrow">Research</p>

@@ -1,0 +1,133 @@
+/* ==========================================================================
+   HOBBY GALLERY
+   ========================================================================== */
+
+.hobby-gallery {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(0.75rem, 2vw, 1.75rem);
+  align-items: start;
+  margin: clamp(3rem, 8vw, 7rem) 0;
+
+  &__intro {
+    grid-column: 1 / -1;
+    max-width: 32rem;
+    margin-bottom: clamp(0.5rem, 2vw, 1.5rem);
+
+    p {
+      margin: 0 0 0.35rem;
+      color: var(--global-link-color);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: clamp(0.9rem, 1.6vw, 1.3rem);
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+  }
+
+  &__image {
+    margin: 0;
+    overflow: hidden;
+    background: var(--global-code-background-color);
+    border-radius: 10px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      object-fit: cover;
+    }
+  }
+
+  &__image--chess {
+    grid-column: 1 / span 3;
+    aspect-ratio: 3 / 5;
+    margin-top: clamp(1.5rem, 5vw, 4.5rem);
+    transform: rotate(-1.4deg);
+
+    img {
+      object-position: 52% 40%;
+    }
+  }
+
+  &__image--climbing {
+    grid-column: 4 / span 4;
+    aspect-ratio: 4 / 5;
+    transform: rotate(0.8deg);
+
+    img {
+      object-position: 52% 42%;
+    }
+  }
+
+  &__image--cycling {
+    grid-column: 8 / span 3;
+    aspect-ratio: 3 / 5;
+    margin-top: clamp(2rem, 7vw, 6rem);
+    transform: rotate(-0.6deg);
+
+    img {
+      object-position: 58% 45%;
+    }
+  }
+
+  &__image--table-tennis {
+    grid-column: 11 / span 2;
+    aspect-ratio: 2 / 4;
+    margin-top: clamp(0.75rem, 3vw, 2.5rem);
+    transform: rotate(1.3deg);
+
+    img {
+      object-position: 50% 44%;
+    }
+  }
+}
+
+@include breakpoint(max-width $medium) {
+  .hobby-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+
+    &__intro {
+      grid-column: 1 / -1;
+      margin-bottom: 0.5rem;
+    }
+
+    &__image--chess,
+    &__image--climbing,
+    &__image--cycling,
+    &__image--table-tennis {
+      grid-column: auto;
+      margin-top: 0;
+    }
+
+    &__image--chess {
+      aspect-ratio: 4 / 5;
+      transform: rotate(-1deg);
+    }
+
+    &__image--climbing {
+      aspect-ratio: 4 / 5;
+      transform: rotate(0.7deg);
+    }
+
+    &__image--cycling {
+      aspect-ratio: 4 / 5;
+      transform: rotate(-0.5deg);
+    }
+
+    &__image--table-tennis {
+      aspect-ratio: 4 / 5;
+      transform: rotate(1deg);
+    }
+  }
+}
