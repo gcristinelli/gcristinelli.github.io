@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Academic Activities"
-permalink: /talks/
+permalink: /activities/
 author_profile: true
 hide_title_on_desktop: true
 ---
@@ -13,6 +13,9 @@ hide_title_on_desktop: true
 
   .activities-section {
     margin-bottom: 2.5rem;
+  }
+
+  .activities-section + .activities-section {
     padding-top: 0.75rem;
     border-top: 1px solid var(--global-border-color);
   }
@@ -124,11 +127,13 @@ hide_title_on_desktop: true
 <div class="activities-page">
 
   {% if site.talk_category %}
-    {% for category in site.talk_category %}
+    {% assign talk_category_order = "research_visits,contributed_talks,conferences_workshops,summer_schools" | split: "," %}
+    {% for category_key in talk_category_order %}
+      {% assign category = site.talk_category[category_key] %}
       {% assign title_shown = false %}
       {% capture category_items %}
         {% for post in site.talks reversed %}
-          {% if post.category != category[0] %}
+          {% if post.category != category_key %}
             {% continue %}
           {% endif %}
           {% assign title_shown = true %}
@@ -138,7 +143,7 @@ hide_title_on_desktop: true
 
       {% if title_shown %}
         <section class="activities-section">
-          <h2 class="activities-section-title">{{ category[1].title }}</h2>
+          <h2 class="activities-section-title">{{ category.title }}</h2>
           <div class="activities-section-items">
             {{ category_items }}
           </div>

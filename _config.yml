@@ -93,10 +93,10 @@ publication_category:
 
 # Activities Category
 talk_category:
-  contributed_talks:
-    title: "Selected Talks"
   research_visits:
     title: "Research Visits"
+  contributed_talks:
+    title: "Selected Talks"
   conferences_workshops:
     title: "Conferences and Workshops"
   summer_schools:

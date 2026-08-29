@@ -1,8 +1,8 @@
 ---
 title: "Introduction to TikZ: a graphic library in Latex"
-excerpt: "
-  <img src='/images/tikz1.png' style='width: 450px;'>
-  <img src='/images/project.jpg' style='width: 450px;'>"
+excerpt: "An illustrated introduction to TikZ and PGF for mathematical graphics."
+header:
+  teaser: tikz1.png
 collection: portfolio
 ---
 
