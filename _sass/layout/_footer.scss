@@ -36,7 +36,9 @@
     padding: 0 1em 1em;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: none;
+      padding-left: clamp(2rem, 4vw, 5rem);
+      padding-right: clamp(2rem, 4vw, 5rem);
     }
   }
 
