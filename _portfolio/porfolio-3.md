@@ -1,28 +1,45 @@
 ---
-title: "The taxonomy of deep learning methods in Geometry Processing"
+title: "A Taxonomy of Deep Learning Methods in Geometry Processing"
 excerpt: "A survey of contemporary deep learning methods in geometry processing."
 header:
   teaser: random_GP.png
 collection: portfolio
 ---
 
-This is a little survey on current state-of-the-art deep learning methods in geometry processing, and how to classify them. Most of the material is adapted from [this talk](https://www.youtube.com/watch?v=r6S0jQqyZDM).
+<div class="research-note" markdown="1">
 
----
+<section class="research-note__opening">
+  <p class="research-note__eyebrow">Research note</p>
+  <p class="research-note__abstract">A practical framework for reading deep-learning methods in geometry processing through four questions: what is predicted, how geometry is represented, which architecture is used, and how the model is trained.</p>
+  <p class="research-note__meta">Geometry processing <span>·</span> Deep learning <span>·</span> Neural fields</p>
 
-**Table of contents**
-- [1. Introduction](#1-introduction)
-- [2. Prediction problems](#2-prediction-problems)
-  - [2.1 Analysis tasks](#21-analysis-tasks)
-  - [2.2 Synthesis tasks](#22-synthesis-tasks)
-- [3. Data representation](#3-data-representation)
-- [4. Neural architectures](#4-neural-architectures)
-  - [4.1 Point cloud architectures](#41-point-cloud-architectures)
-  - [4.2 Mesh architectures](#42-mesh-architectures)
-  - [4.3 Implicit neural representations (INRs)](#43-implicit-neural-representations-inrs)
-- [References](#references)
+  <div class="research-note__taxonomy" aria-label="Four-part taxonomy">
+    <article>
+      <span>01</span>
+      <p>Prediction task</p>
+      <small>Analysis or synthesis</small>
+    </article>
+    <article>
+      <span>02</span>
+      <p>Representation</p>
+      <small>Points, meshes, images, grids, or fields</small>
+    </article>
+    <article>
+      <span>03</span>
+      <p>Architecture</p>
+      <small>MLPs, convolutions, or attention</small>
+    </article>
+    <article>
+      <span>04</span>
+      <p>Training objective</p>
+      <small>Data, priors, and optimization constraints</small>
+    </article>
+  </div>
+</section>
 
----
+{% include toc title="On this page" %}
+
+Most of the material is adapted from [this talk](https://www.youtube.com/watch?v=r6S0jQqyZDM).
 
 ## 1. Introduction
 
@@ -354,3 +371,5 @@ For instance, [[32]](#ref32) employs range analysis techniques (e.g. affine arit
 <a name="ref31"></a>[31] Marschner, Z. et al. (2023). *Constructive Solid Geometry on Neural Signed Distance Fields.* ACM TOG, 42(6).
 
 <a name="ref32"></a>[32] Sharp, N. & Jacobson, A. (2022). *Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces via Range Analysis.* ACM TOG, 41(4).
+
+</div>
