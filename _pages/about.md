@@ -30,7 +30,7 @@ I have been working on inverse problems with PDE constraints and sparse optimiza
     <source src="{{ '/files/animation.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support HTML video.
   </video>
-  <figcaption class="research-video__caption">A discrete mean curvature flow using graph cuts.<br><a href="https://github.com/gcristinelli/Galerkin-Conditional-Gradient">View the code on GitHub</a>.</figcaption>
+  <figcaption class="research-video__caption">A discrete mean curvature flow using graph cuts.<br><a href="https://github.com/gcristinelli/Discrete-Mean-Curvature">View the code on GitHub</a>.</figcaption>
 </figure>
 
 I am particularly interested in turning mathematical models into methods that are actually competitive in practice, and in understanding why effective heuristic methods are mathematically sound, especially in areas such as computer graphics and geometry processing. My technical work spans Python and C++ for finite element methods, optimization, and large-scale numerical computation.
@@ -52,7 +52,7 @@ I will be available for new opportunities starting October 2026. I am interested
 
 <div class="research-video-row">
   <figure class="research-video">
-    <video class="research-video__media" controls muted playsinline preload="metadata" aria-describedby="castle-video-caption-desktop">
+    <video class="research-video__media" data-preview-time="0.25" muted playsinline preload="auto" aria-describedby="castle-video-caption-desktop">
       <source src="{{ '/files/castle_onecut.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support HTML video.
     </video>
@@ -62,14 +62,14 @@ I will be available for new opportunities starting October 2026. I am interested
     </figcaption>
   </figure>
   <figure class="research-video">
-    <video class="research-video__media" controls muted playsinline preload="metadata" aria-label="Research animation">
+    <video class="research-video__media" data-preview-time="0.25" muted playsinline preload="auto" aria-label="Research animation">
       <source src="{{ '/files/animation.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support HTML video.
     </video>
-    <figcaption class="research-video__caption">A discrete mean curvature flow using graph cuts.<br><a href="https://github.com/gcristinelli/Galerkin-Conditional-Gradient">View the code on GitHub</a>.</figcaption>
+    <figcaption class="research-video__caption">A discrete mean curvature flow using graph cuts.<br><a href="https://github.com/gcristinelli/Discrete-Mean-Curvature">View the code on GitHub</a>.</figcaption>
   </figure>
   <figure class="research-video">
-    <video class="research-video__media" controls muted playsinline preload="metadata" aria-label="Collision detection animation">
+    <video class="research-video__media" data-preview-time="0.25" muted playsinline preload="auto" aria-label="Collision detection animation">
       <source src="{{ '/files/DEM.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support HTML video.
     </video>
