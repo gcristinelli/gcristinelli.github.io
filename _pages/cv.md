@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Here you can find my [full cv](https://gcristinelli.github.io/files/Academic_CV.pdf) (last update: April 2026).
+Here you can find my [full cv](https://gcristinelli.github.io/files/Academic_CV.pdf) (last update: August 2026).
 
 Education
 ======
@@ -34,9 +34,9 @@ Education
   
 Technical skills
 ======
-* Languages: Italian (Mothertongue), English (C1/C2), Spanish (B2)
+* Languages: Italian (Mothertongue), English (C1/C2), Spanish (A2)
 * Coding languages: Python, Cpp, Julia, Matlab, HTML (in order of proficiency: high -> basic)
-* Softwares for Simulations & Design: Ansys, Blender
+* Softwares for Simulations & Design: Ansys, Blender, Paraview
 * Other tools: git
 * Familiarity with agile methodologies
 
